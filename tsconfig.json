@@ -2,7 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "outDir": "./dist/manga-web-manager",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
