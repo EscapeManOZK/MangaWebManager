@@ -1,0 +1,64 @@
+{
+  "configVersion": 1,
+  "timestamp": 1682041524638,
+  "index": "https://escapemanozk.github.io/MangaWebManager/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://escapemanozk.github.io/MangaWebManager/909.834026ad4087342b.js",
+        "https://escapemanozk.github.io/MangaWebManager/favicon.ico",
+        "https://escapemanozk.github.io/MangaWebManager/index.html",
+        "https://escapemanozk.github.io/MangaWebManager/main.c9869f7ac944deda.js",
+        "https://escapemanozk.github.io/MangaWebManager/polyfills.d4f4635fae805113.js",
+        "https://escapemanozk.github.io/MangaWebManager/runtime.5ff1ef68677a1940.js",
+        "https://escapemanozk.github.io/MangaWebManager/styles.723e7b41c48c31dc.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://escapemanozk.github.io/MangaWebManager/909.834026ad4087342b.js": "b42d9f82bfaa69a329eccdd16feb83f39470eba0",
+    "https://escapemanozk.github.io/MangaWebManager/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://escapemanozk.github.io/MangaWebManager/index.html": "fc44ad8af3429fd6dc8ac967abc0349dd2394bdb",
+    "https://escapemanozk.github.io/MangaWebManager/main.c9869f7ac944deda.js": "54b567dcfbed18ebe0413f2e746067ee7fe02d4d",
+    "https://escapemanozk.github.io/MangaWebManager/polyfills.d4f4635fae805113.js": "b6d18d8a61f256ab065d6ddb5ca4f8de90233b79",
+    "https://escapemanozk.github.io/MangaWebManager/runtime.5ff1ef68677a1940.js": "4bd1d424c32337ff947b2a7620605a00886b1b5f",
+    "https://escapemanozk.github.io/MangaWebManager/styles.723e7b41c48c31dc.css": "792e446c5a9cafbe41c101462daae30bfa6e2188"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
