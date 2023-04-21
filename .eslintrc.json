@@ -19,7 +19,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "wma",
+            "prefix": "mwa",
             "style": "camelCase"
           }
         ],
@@ -27,7 +27,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "wma",
+            "prefix": "mwa",
             "style": "kebab-case"
           }
         ]

@@ -1,7 +1,7 @@
 import { Component} from '@angular/core';
 
 @Component({
-  selector: 'wma-welcome',
+  selector: 'mwa-welcome',
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.scss']
 })
