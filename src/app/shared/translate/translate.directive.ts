@@ -8,10 +8,10 @@ import { translationNotFoundMessage } from './translation.config';
  * A wrapper directive on top of the translate pipe as the inbuilt translate directive from ngx-translate is too verbose and buggy
  */
 @Directive({
-  selector: '[wmaTranslate]',
+  selector: '[mwaTranslate]',
 })
 export class TranslateDirective implements OnChanges, OnInit, OnDestroy {
-  @Input() wmaTranslate!: string;
+  @Input() mwaTranslate!: string;
   @Input() translateValues?: { [key: string]: unknown };
 
   private readonly directiveDestroyed = new Subject();
@@ -38,13 +38,13 @@ export class TranslateDirective implements OnChanges, OnInit, OnDestroy {
 
   private getTranslation(): void {
     this.translateService
-      .get(this.wmaTranslate, this.translateValues)
+      .get(this.mwaTranslate, this.translateValues)
       .pipe(takeUntil(this.directiveDestroyed))
       .subscribe({
         next: value => {
           this.el.nativeElement.innerHTML = value;
         },
-        error: () => `${translationNotFoundMessage}[${this.wmaTranslate}]`,
+        error: () => `${translationNotFoundMessage}[${this.mwaTranslate}]`,
       });
   }
 }
