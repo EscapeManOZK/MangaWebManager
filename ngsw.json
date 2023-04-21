@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1682086212246,
+  "timestamp": 1682087591215,
   "index": "https://escapemanozk.github.io/MangaWebManager/index.html",
   "assetGroups": [
     {
@@ -36,7 +36,7 @@
   "hashTable": {
     "https://escapemanozk.github.io/MangaWebManager/909.ac5010aa2a1e3d23.js": "c2bfc0697675c71be6694e2de114eb1304777739",
     "https://escapemanozk.github.io/MangaWebManager/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://escapemanozk.github.io/MangaWebManager/index.html": "99f75513c529ef15d47e84a36fd32ca4b1ab51b9",
+    "https://escapemanozk.github.io/MangaWebManager/index.html": "824d6d812ed0ed060ac221684ef0bb9ceab41527",
     "https://escapemanozk.github.io/MangaWebManager/main.c9869f7ac944deda.js": "54b567dcfbed18ebe0413f2e746067ee7fe02d4d",
     "https://escapemanozk.github.io/MangaWebManager/polyfills.d4f4635fae805113.js": "b6d18d8a61f256ab065d6ddb5ca4f8de90233b79",
     "https://escapemanozk.github.io/MangaWebManager/runtime.d7dab32a43b31142.js": "62e1e1a0d9a388107a9465d180ef079a815d13b4",
