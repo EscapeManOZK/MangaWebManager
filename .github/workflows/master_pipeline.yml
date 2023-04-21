@@ -6,10 +6,6 @@ name: Master Pipeline
 on:
   push:
     branches: [ "master" ]
-  merge:
-    branches: [ "master" ]
-  rebase:
-    branches: [ "master" ]
 
 jobs:
   build:
