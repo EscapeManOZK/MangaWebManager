@@ -33,13 +33,13 @@
     </li>
     <li nz-submenu [(nzOpen)]="mobile?langSubMenuMobile:langSubMenu" [nzTitle]="mwaLangTitle" [nzMenuClassName]="mobile?'':'mwaSubMenu'">
       <ul>
-        <li nz-menu-item *ngFor="let lang of langs" (click)="changeLang(lang,mobile)">{{lang.toUpperCase()}}</li>
+        <li nz-menu-item *ngFor="let lang of langs" (click)="changeLang(lang,mobile)">{{lang?lang.toUpperCase():lang}}</li>
       </ul>
     </li>
   </ul>
 </ng-template>
 
-<ng-template #mwaLangTitle><span style="text-decoration: underline">{{currentLang.toUpperCase()}}</span></ng-template>
+<ng-template #mwaLangTitle><span style="text-decoration: underline">{{currentLang?currentLang.toUpperCase():currentLang}}</span></ng-template>
 
 <nz-header>
   <div class="logo">

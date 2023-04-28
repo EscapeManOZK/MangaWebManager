@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { NotFoundComponent } from './not-found.component';
+import { NzResultModule } from 'ng-zorro-antd/result';
+import { TranslateModule } from '@ngx-translate/core';
 
 describe('NotFoundComponent', () => {
   let component: NotFoundComponent;
@@ -8,6 +10,7 @@ describe('NotFoundComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      imports: [ NzResultModule, TranslateModule.forRoot() ],
       declarations: [ NotFoundComponent ]
     })
     .compileComponents();

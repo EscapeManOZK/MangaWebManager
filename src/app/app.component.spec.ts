@@ -3,6 +3,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { NgZorroAntdModule } from './shared/libs/ng-zorro-antd.module';
+import { LayoutModule } from './layout/layout.module';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -10,7 +11,8 @@ describe('AppComponent', () => {
       imports: [
         RouterTestingModule,
         TranslateModule.forRoot(),
-        NgZorroAntdModule
+        NgZorroAntdModule,
+        LayoutModule
       ],
       declarations: [
         AppComponent
