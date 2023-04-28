@@ -1,0 +1,117 @@
+/*
+
+logo part
+
+*/
+
+.logo {
+  float: left;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  padding: 0px 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.logo p {
+  margin: 0;
+}
+
+.logo .icon img{
+  height: 60px;
+  cursor: pointer;
+}
+
+.logo .icon, .logo .titleRack {
+  display: inline-block;
+  white-space:nowrap;
+}
+
+.logo .titleRack {
+  line-height: initial;
+  margin-left: 5px;
+  height: 60px;
+  margin-top: -5px;
+}
+.logo .titleRack span {
+  display: block;
+}
+
+.logo .titleRack .center {
+  height: 15px;
+}
+.title3l {
+  color: #F3877D;
+}
+.explain {
+  color:rgba(255, 255, 255, 1)
+}
+
+// navbar menu
+
+[nz-menu] {
+  line-height: 64px;
+}
+
+/*
+mobile part
+*/
+.iconMobile{
+  margin: 0px;
+  color: white;
+  font-size: 2em;
+  float: right;
+}
+
+.iconMobile span:hover{
+  opacity: 0.80;
+}
+
+.iconMobile span:active{
+  opacity: 0.50;
+}
+
+.darkContainer{
+  color: rgba(255, 255, 255, 0.65);
+  border-color: rgba(255, 255, 255, 0.65);
+}
+
+.customDrawer p{
+  padding: 24px 24px 0px 24px;
+}
+
+.customDrawer h1, .customDrawer hr{
+  color: rgba(255, 255, 255, 0.65);
+}
+
+[mwaCloseIcon] {
+  text-align: center;
+  font-size: 2.5em;
+
+}
+
+[mwaCloseIcon] [nz-icon] {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+[mwaCloseIcon] [nz-icon]:hover{
+  color: rgba(255, 255, 255, 1);
+  transform: rotate(180deg);
+}
+
+[mwaUser] div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+[mwaUser] div button {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+[mwaUser] div button:hover {
+  color: #40a9ff;
+}
+

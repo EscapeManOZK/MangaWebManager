@@ -1,0 +1,7 @@
+<nz-breadcrumb *ngIf="breadcrumbVisible" [nzAutoGenerate]="true" [nzRouteLabelFn]="translateFn.bind(this)">
+</nz-breadcrumb>
+<nz-breadcrumb *ngIf="!breadcrumbVisible">
+  <nz-breadcrumb-item>
+    <a nz-button nzType="text" nzLoading></a>
+  </nz-breadcrumb-item>
+</nz-breadcrumb>

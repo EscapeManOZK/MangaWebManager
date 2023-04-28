@@ -1,0 +1,28 @@
+{
+  "mwa": {
+    "navbar": {
+      "title": "Gestionnaire de bibliothèque",
+      "home": "Accueil",
+      "work": "List d'oeuvre",
+      "admin": "Administration",
+      "user": "Utilisateur",
+      "adminSubmenu": {
+        "title": {
+          "admin": "Administration",
+          "entity": "Entité"
+        },
+        "admin": {
+          "users": "Gestion des utilisateurs"
+        },
+        "entity": {
+          "work": "Oeuvres"
+        }
+      },
+      "userButtons": {
+        "signin": "Se connecter",
+        "signup": "Créer un compte",
+        "logout": "Se déconnecter"
+      }
+    }
+  }
+}
