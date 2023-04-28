@@ -13,6 +13,8 @@ import { IconsProviderModule } from './icons-provider.module';
 import { SharedModule } from './shared/shared.module';
 import { NgxWebstorageModule } from 'ngx-webstorage';
 import { TranslationModule } from './shared/translate/translation.module';
+import { LayoutModule } from './layout/layout.module';
+import { NotFoundModule } from './pages/not-found/not-found.module';
 
 registerLocaleData(en);
 
@@ -29,6 +31,8 @@ registerLocaleData(en);
     BrowserAnimationsModule,
     IconsProviderModule,
     TranslationModule,
+    LayoutModule,
+    NotFoundModule,
   ],
   providers: [
     { provide: NZ_I18N, useValue: en_US }
