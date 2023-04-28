@@ -5,7 +5,9 @@ name: Pull Request Pipeline
 
 on:
   pull_request:
-    types: [opened, reopened, edited]
+    types: [opened, reopened, edited, ready_for_review, converted_to_draft, synchronize]
+  push:
+    branches: [ 'feature/**', 'release/**', 'bugfix/**', 'hotfix/**' ]
 
 jobs:
   build:
