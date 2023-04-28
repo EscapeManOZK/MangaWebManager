@@ -1,1 +1,1 @@
-{"global":{"title":"MWA Manager"}}
+{"mwa":{"404":{"subTitle":"Sorry, the page you visited does not exist.","button":"Back Home"},"breadcrumb":{"404":"Not Found","home":"Home"},"navbar":{"title":"Library Manager","home":"Home","work":"Work list","admin":"Administration","user":"User","adminSubmenu":{"title":{"admin":"Administration","entity":"Entity"},"admin":{"users":"Users Management"},"entity":{"work":"Work"}},"userButtons":{"signin":"Sign in","signup":"Sign up","logout":"Log out"}}},"global":{"title":"MWA Manager"}}

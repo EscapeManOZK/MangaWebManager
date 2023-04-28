@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1682090936307,
+  "timestamp": 1682693885091,
   "index": "https://escapemanozk.github.io/MangaWebManager/index.html",
   "assetGroups": [
     {
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://escapemanozk.github.io/MangaWebManager/909.ac5010aa2a1e3d23.js",
+        "https://escapemanozk.github.io/MangaWebManager/396.e3154bdf0d08a8a3.js",
         "https://escapemanozk.github.io/MangaWebManager/favicon.ico",
         "https://escapemanozk.github.io/MangaWebManager/index.html",
-        "https://escapemanozk.github.io/MangaWebManager/main.f7e26d7f35e17bd5.js",
+        "https://escapemanozk.github.io/MangaWebManager/main.1f1f02d5cbb44615.js",
         "https://escapemanozk.github.io/MangaWebManager/polyfills.d4f4635fae805113.js",
-        "https://escapemanozk.github.io/MangaWebManager/runtime.d7dab32a43b31142.js",
-        "https://escapemanozk.github.io/MangaWebManager/styles.723e7b41c48c31dc.css"
+        "https://escapemanozk.github.io/MangaWebManager/runtime.fd952171d0a7c608.js",
+        "https://escapemanozk.github.io/MangaWebManager/styles.ca507e1db365c62a.css"
       ],
       "patterns": []
     },
@@ -34,13 +34,13 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://escapemanozk.github.io/MangaWebManager/909.ac5010aa2a1e3d23.js": "c2bfc0697675c71be6694e2de114eb1304777739",
-    "https://escapemanozk.github.io/MangaWebManager/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://escapemanozk.github.io/MangaWebManager/index.html": "b760320c3bc041403e4c89df53549e69d22bd2d0",
-    "https://escapemanozk.github.io/MangaWebManager/main.f7e26d7f35e17bd5.js": "a32a563da12908e78d82e52c8de989a48c8ef4e8",
+    "https://escapemanozk.github.io/MangaWebManager/396.e3154bdf0d08a8a3.js": "6149a59f3e22db35e27f409675ce5b33efaf5dae",
+    "https://escapemanozk.github.io/MangaWebManager/favicon.ico": "968fd74bca874c8deb55c26ae13865e6fc25fe24",
+    "https://escapemanozk.github.io/MangaWebManager/index.html": "690d76e60869a52f1ec1da1ffd90bdc4e5064413",
+    "https://escapemanozk.github.io/MangaWebManager/main.1f1f02d5cbb44615.js": "fd0d047e6f5963b9edcb557e9105fa805e5bab4b",
     "https://escapemanozk.github.io/MangaWebManager/polyfills.d4f4635fae805113.js": "b6d18d8a61f256ab065d6ddb5ca4f8de90233b79",
-    "https://escapemanozk.github.io/MangaWebManager/runtime.d7dab32a43b31142.js": "62e1e1a0d9a388107a9465d180ef079a815d13b4",
-    "https://escapemanozk.github.io/MangaWebManager/styles.723e7b41c48c31dc.css": "792e446c5a9cafbe41c101462daae30bfa6e2188"
+    "https://escapemanozk.github.io/MangaWebManager/runtime.fd952171d0a7c608.js": "da82f8d135089877d20282f532e2956f1d700798",
+    "https://escapemanozk.github.io/MangaWebManager/styles.ca507e1db365c62a.css": "5df40fa1ed691d2b9e81f28ca7d35e88dcf377ce"
   },
   "navigationUrls": [
     {
