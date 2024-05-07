@@ -6,6 +6,8 @@ name: Master Pipeline
 on:
   push:
     branches: [ "master" ]
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -67,7 +69,7 @@ jobs:
           npm ci
           CI=true npm run test:ci
 
-  deploy:
+  build-and-deploy:
     needs: [lint,tests]
     runs-on: ubuntu-latest
 
